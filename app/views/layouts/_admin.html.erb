@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SampleApp</title>
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon.png"/>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	<%= render :partial=>"home/menubar" %>
+	<div class="mask"></div>
+	<div id="preloader" class="loader"></div>
+	<%= yield %>
+	<%= render :partial=>"home/footer" %>
+</body>
+</html>
