@@ -162,6 +162,12 @@ body {
   padding: 5px;
   min-height: 160px;
 }
+.mypage_container{
+  background-color: #fff;
+  box-shadow: 0 0 2px #ccc;
+  padding-top: 10px;
+}
+
 @media (max-width: 992px) {
   .recentposts{
     margin-top: 15px;

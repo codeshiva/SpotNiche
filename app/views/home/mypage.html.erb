@@ -1,0 +1,36 @@
+<div class="jumbotron">
+	<div class="container mypage_container">
+		<p class="text-center">Welcome <%= current_user.email %>!</h1>
+		<dl class="dl-horizontal">
+  			<dt>Available Job Postings</dt>
+  			<dd>10</dd>
+  			<dt>Job Posted</dt>
+  			<dd>5</dd>
+  			<dt>Buy credits</dt>
+  			<dd>Post New Job</dd>
+		</dl>
+		<table class="table table-bordered table-striped">
+			<caption>Jobs Posted</caption>
+			<thead>
+				<tr>
+					<th>s#</th>
+					<th>Position</th>
+					<th>Submitted Application</th>
+					<th>Location</th>
+					<th>Expiry Date</th>
+					<th class="text-center">View List</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>ROR Developer</td>
+					<td>50</td>
+					<td>Bangalore</td>
+					<td>5th May 2015</td>
+					<td class="text-center"><button class="btn btn-default btn-sm">View</button></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
