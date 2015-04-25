@@ -138,6 +138,11 @@ body {
   box-shadow: 0 0 2px #ccc;
   margin-top: 15px; 
 }
+.job_posting_container{
+  background-color: #fff;
+  box-shadow: 0 0 2px #ccc;
+  padding-top: 15px;
+}
 .recentposts{
   min-height:760px;
   background-color: #fff;

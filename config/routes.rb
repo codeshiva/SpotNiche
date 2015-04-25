@@ -2,7 +2,8 @@ Rails.application.routes.draw do
   
 
   get 'home/index'
-  get 'home/jobs'
+  get 'job/index'
+  get 'job/post_job'
   get 'mypage/index'
 
   #devise_for :users, controllers: { sessions: "users/sessions" }
