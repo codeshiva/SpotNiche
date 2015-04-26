@@ -172,7 +172,23 @@ body {
   box-shadow: 0 0 2px #ccc;
   padding-top: 10px;
 }
-
+.login_container{
+  background-color: #fff;
+  box-shadow: 0 0 2px #ccc;
+  padding-bottom: 15px;
+}
+.user_font{
+  width:100px;
+  height:100px;
+  border-radius: 50%;
+  background-color: #286090;
+  color: #fff;
+  margin:0px auto 10px;
+  text-align: center;
+}
+.user_font .fa{
+  font-size: 6em;
+}
 @media (max-width: 992px) {
   .recentposts{
     margin-top: 15px;
